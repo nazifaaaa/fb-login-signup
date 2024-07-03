@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/* body{
+
+} */
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* h1, h2, h3, h4, h5, h6{
+    font-family: ;
+} */
+
+a{
+    text-decoration: none;
+}
+
+/* Starting */
+
+.first-xyz{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+}
+
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 22px;
+}
+
+.inside-xyz{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 8px;
+    height: 71vh;
+    width: 35%;
+}
+
+h2{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    padding: 24px 0px 20px 0px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+input{
+    width: 358px;
+    padding: 14px 16px;
+    margin: 0px 10px 0px 20px;
+    border: 1px solid rgba(128, 128, 128, 0.249);
+    font-size: medium;
+    outline: none;
+    border-radius: 6px;
+}
+
+.button{
+    background-color: #1877f2;
+    font-weight: 600;
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.email input{
+    margin-bottom: 13px;
+}
+.email:hover{
+    color: rgba(128, 128, 128, 0.381);
+}
+
+.pass input{
+    margin-bottom: 13px;
+}
+
+.facc{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding: 16px 0px 13px 0px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.facc a{
+    color: #1877f2;
+}
+
+p{
+    text-align: center;
+    word-spacing: 8px;
+    color: #4b4f565b;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #42b72a;
+    margin: 13px 99px 0 99px;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-2:hover{
+    background-color: #3f9515f6;
+    transition: 0.3s;
+}
+
+.btn-2 a{
+    color: white;
+    font-family:"Roboto", sans-serif;
+}
+
+button{  
+    text-align: center;
+    width: 30%;
+}

@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/* body{
+    
+} */
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Roboto", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* start */
+
+.first-pqr{
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+   
+}
+
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 22px;
+}
+
+.inside-pqr{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 8px;
+    height: 102vh;
+    width: 37%;
+}
+
+.thing h2{
+    text-align: center;
+    padding: 11px 0px 0px 0px;
+}
+
+.thing p{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    margin: 5px 0px 8px 0px;
+    color: #606770;
+    font-size: 16px;
+}
+
+input,select{
+    width: 358px;
+    padding: 9px 12px;
+    margin: 0px 15px 0px 15px;
+    border: 1px solid rgba(128, 128, 128, 0.249);
+    font-size: medium;
+    outline: none;
+    border-radius: 6px;
+    
+}
+
+.name input{
+    margin-top: 5px;
+    width: 178px;
+    margin-bottom: 10px;
+}
+.email input{
+    margin-bottom: 10px;
+    width: 390px;
+}
+
+.pass input{
+    margin-bottom: 10px;
+    width: 390px;
+}
+
+.dob select{
+    width: 107px;
+    margin-bottom: 13px;
+}
+.gender select{
+    width: 107px;
+    margin-bottom: 15px;
+}
+
+.dob p{
+    margin-left: 15px;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    color: #606770;
+    margin-bottom: 5px;
+}
+.gender p{
+    text-align: left;
+    margin-left: 15px;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    color: #606770;
+    margin-bottom: 5px;
+}
+
+.gender input{
+    width: 107px;
+    justify-content: space-between;
+}
+
+i{
+    margin-left: 5px;
+}
+
+.para{
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    color: #777;
+    margin: 10px 10px 10px 17px;
+}
+.para a{
+    color: #385898;
+}
+
+.para-2{
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    color: #777;
+    margin: 10px 10px 10px 17px;
+}
+.para-2 a{
+    color: #385898;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.button{
+    background-color: #00a400;
+    font-weight: 600;
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 190px;
+    height: 36px;
+}
+
+.lg{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.lg a{
+    font-family: "Roboto", sans-serif;
+    color: #1877f2;
+}
